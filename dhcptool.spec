@@ -1,5 +1,5 @@
 Summary:	dhcptool - an utility to generate and transmit custom DHCP/BOOTP packets
-#Summary(pl.UTF-8):	-
+Summary(pl.UTF-8):	dhcptool - narzędzie do generowania i przesyłania własnych pakietów DHCP/BOOTP
 Name:		dhcptool
 Version:	0.8b
 Release:	1
@@ -19,7 +19,13 @@ and the idea is to facilitate simulation of e.g. broken DHCP clients
 to see how well servers handle them and/or to detect stability bugs
 in any software that parses DHCP messages.
 
-#%description -l pl.UTF-8
+%description -l pl.UTF-8
+DHCPTool to obsługiwane z linii poleceń narzędzei służące np. do
+testowania serwerów DHCP lub agentów przekazujących DHCP. Potrafi
+wygenerować prawie każdy rodzaj pakietu DHCP, mając na celu ułatwienie
+symulacji np. wadliwych klientów DHCP, aby sprawdzić, jak dobrze
+serwery są w stanie je obsłużyć, albo wykryć błędy stabilności w
+dowolnym kodzie analizującym komunikaty DHCP.
 
 %prep
 %setup -q
